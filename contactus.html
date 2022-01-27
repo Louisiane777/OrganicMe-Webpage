@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
+    
+    <title>Organic Me</title>
+  </head>
+  
+  <body> 
+    <p><a href= "index.html" >HOME PAGE</a></p> 
+    <p><a href= "cafe.html" >Cafe</a></p> 
+    <p><a href= "shop.html" >Shop</a></p> 
+    <p><a href= "course.html" >Course</a></p> 
+     
+      <!---Start of Navigation-->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-warning bg-white fixed-top ">
+          <a class="navbar-brand" href="index.html"> <img class="navbar-logo" alt ="organic me logo" src="logocopy.png"></a>
+          
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle navigation"> 
+             <span class="navbar-toggler-icon bg-success btn-success"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-center" id="myTogglerNav" > 
+          <div class="navbar-nav ml-5 mt-3 " >
+             
+               
+                  <a class="nav-item nav-link text-success pr-5" href="index.html">Home</a>
+                
+                  <a class="nav-item nav-link text-success pr-5" href="cafe.html">Cafe</a> 
+                  
+                  <a class="nav-item nav-link text-success pr-5" href="shop.html">Shop</a>
+                    
+                  <a class="nav-item nav-link text-success pr-5" href="course.html">Gardening course</a>
+                
+                  <a class="nav-item nav-link text-success pr-5 " href="contactus.html">Contact us</a>
+             
+            
+          </div>    
+        </div>     
+         
+      </nav>
+      </div>
+  <!---End of Navigation-->
+  <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. 
+        </p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>High Street, Kelso</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p> 01573 283 018 </p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>enquiry@organicme.org.uk</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+ <!--Start of footer -->
+<footer>
+  <div class="container">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <p class="text-light">Key infos</p>
+      <p class="text-light"> <a href="cafe.html">Cafe</a></p>
+      <p class="text-light"> <a href="shop.html">Shop</a></p>
+      <p class="text-light"> <a href="course.html">Gardening course</a></p>
+    </div>
+    <div class="col-md-4 smed">
+      <p class="text-light">Opening hours</p>
+      <p class="text-light">Monday to Friday: 10am to 5pm</p>
+      <p class="text-light">Saturday and Sunday: 12pm to 4pm</p>
+      <i class="fab fa-facebook-square"></i>
+      <p class="text-light copy"> &copy; Organic Me 2021</p>
+    </div>
+    <div class="col-md-4">
+      <p class="text-light">Contact us</p>
+       <p class="text-light"> Organic ME</p> 
+       <p class="text-light"> High Street, Kelso</p>
+       <p class="text-light"> enquiry@organicme.org.uk<p>
+      </p> 
+    </div>
+  </div>
+</div>
+
+</footer>
+<!--End of footer-->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+
+</html>
